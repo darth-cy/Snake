@@ -1,0 +1,34 @@
+.snake-game-box{
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 255px;
+}
+
+.row{}
+
+.cell{
+  background: grey;
+  border: 1px solid white;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+
+.snake{
+  background: yellow;
+}
+
+.apple{
+  background: red;
+}
+
+.group:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.scoreboard{
+  text-align: center;
+  color: red;
+}
