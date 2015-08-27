@@ -17,10 +17,12 @@ Follow the live link of this game here: [live]
 [live]: http://razynoir.github.io/snake/
 
 ### Development Highlights ###
-+ Floating Scheme: Unlike Candy Crush which requires sliding of absolutely positioned HTML divs, snake operates on a fixed grid system, therefore, it's more sensible to put all divs as floating elements inside a fixed box.
++ Floating Scheme: Unlike [Candy Crush][candy-crush] which requires sliding of absolutely positioned HTML divs, snake operates on a fixed grid system, therefore, it's more sensible to put all divs as floating elements inside a fixed box.
 + Detection: The keyup and keydown events are binded to the window so the environment can correctly identify keystroke commands.
 + Do Not Turn Back: To prevent turning back into yourself, the snake checks if the new direction plus the head will equal to the second segment of itself. This is different from the conventional checking which checks if the new direction is different from the current direction.
 + Coord Class: The coordinate utility is also streamlined into a Coord class that deals with vector operations.
+
+[candy-crush]: http://razynoir.github.io/candy-crush/
 
 ### Future Development Considerations ###
 + Graphical interface. It is possible to place images onto the grid. We only need to know if a grid is the snake's head or middle segment, then we can even animate the head for more interactive features.
