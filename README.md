@@ -1,5 +1,6 @@
 # Snake #
 This is the classical snake game developed using DOM div elements and CSS3 class toggle. It functions with keypress events and has intuitive controls.
+**THIS GAME ENABLES SNAKE WRAPPING! HIGHSCORE REACHEABLE IN SECONDS!**
 
 ### Sample Screenshot ###
 ![snake]
