@@ -99,9 +99,7 @@
       snakeview.$el.append(tag);
     })
   }
-
-
-
+  
   SnakeView.prototype.setupBoard = function () {
     var box = $('<div></div>');
     box.addClass('snake-game-box');
@@ -126,28 +124,4 @@
     score.text(this.board.score);
     this.$el.append(score);
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 })();

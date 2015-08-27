@@ -9,7 +9,7 @@
   }
 
   Coord.prototype.plus = function(coord){
-    return new Coord(this.x + coord.x, this.y + coord.y);
+    return new Coord((this.x + coord.x)%15, (this.y + coord.y)%15);
   }
 
   Coord.prototype.equals = function(coord){
